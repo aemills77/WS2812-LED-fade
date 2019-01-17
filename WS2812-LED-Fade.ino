@@ -5,7 +5,8 @@
 // Released for public use under GPL 2.0 License
 
 // Description: Causes WS2812 LEDs to gradually fade in and out with pre-defined color
-// Change number of LEDs with the NUM_LEDS variable, and the Ardunio PIN to control the LEDs with the LED_PIN variable
+// Change number of LEDs with the NUM_LEDS variable
+// Change Ardunio PIN to control the LEDs with the LED_PIN variable
 // Color is set using CRGB(Red, Green, Blue) command in main program
 
 #define LED_PIN   0 // PIN used on Arduino board
