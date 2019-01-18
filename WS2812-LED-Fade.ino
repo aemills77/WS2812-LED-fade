@@ -28,6 +28,15 @@ int redValue = 150;   // red value for LEDs (CRGB)
 int greenValue = 255; // green value for LEDs (CRGB)
 int blueValue = 0;    // blue value for LEDs (CRGB)
 
+// sample RGB color values 
+// white  (255,255,255)
+// red    (255,0,0)
+// blue   (0,0,255)
+// yellow (255,255,0)
+// green  (0,128,0)
+// purple (128,0,128)
+// orange (255,165,0)
+
 // defined values for fade speed, minimum and maximum brightness of LEDs
 
 int milliseconds = 20; // time delay in milliseconds
