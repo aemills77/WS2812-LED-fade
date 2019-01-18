@@ -35,8 +35,7 @@ int minBright = 5;    // minimum brightness value defined (0 is programmable min
 int maxBright = 255;  // maximum brightness value defined (255 is programmable maximum)
 
 void setup() {
-  // FastLED library call to program WS2812 LEDs
-  FastLED.addLeds<WS2812, LED_PIN, GRB>(leds, NUM_LEDS);
+  FastLED.addLeds<WS2812, LED_PIN, GRB>(leds, NUM_LEDS);  // FastLED library call to program WS2812 LEDs
 }
 
 void loop() {
