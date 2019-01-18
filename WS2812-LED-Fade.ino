@@ -47,6 +47,6 @@ void loop() {
   }
   brightness = brightness + fadeAmount;
   if(brightness <= minBright || brightness >= maxBright){
-    fadeAmount = -fadeAmount; // invert fade value to either negative or positive
+    fadeAmount = -fadeAmount; // invert fadeAmount to either negative or positive value
   }
 }
