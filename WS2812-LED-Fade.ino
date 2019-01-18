@@ -15,7 +15,7 @@
 
 CRGB leds[NUM_LEDS];
 
-int brightness = 5;   // brightness of the LEDs 0 (off) - 255 (max) 
+int brightness = 5;   // initial brightness value of the LEDs 0 (off) - 255 (max) 
 int fadeAmount = 5;   // rate of which to fade the LEDs
 int ledCount = NUM_LEDS; // total number of LEDs controlled
 
